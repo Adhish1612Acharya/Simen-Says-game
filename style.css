@@ -1,0 +1,95 @@
+body{
+    text-align: center;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    height: fit-content;
+    position: absolute;
+    left:41%;
+}
+
+.box-container1{
+    display: flex;
+}
+
+.box-container2{
+    display: flex;
+}
+
+.btn{
+    height:6rem;
+    width:6rem;
+    border:5px solid black;
+    border-radius: 2rem;
+    margin:1rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.red{
+    background-color:#d95980 ;
+}
+
+.yellow{
+    background-color:#f99b45 ;
+}
+
+.green{
+    background-color:#63aac0 ;
+}
+
+.purple{
+    background-color:#819ff9 ;
+}
+
+.gameflash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: aqua;
+}
+
+.endflash{
+    background-color: red;
+}
+
+.dispnone{
+display: none;
+}
+
+#guide{
+    text-align: center;
+    position: relative;
+    top:20rem;
+}
+
+#Click{
+    width: fit-content;
+    height: 3rem;
+    background-color: rgb(3, 247, 218);
+    color: black;
+    text-align: center;
+    border-radius: 2rem;
+    border:2px solid black;
+    transition: all 0.5s ease-in-out 0s;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#Click:hover{
+    transform: scale(1.06);
+    box-shadow: 2px 2px 5px black;
+}
+
+#guideh1{
+    display: inline;
+}
+
+form{
+    display: inline;
+}
